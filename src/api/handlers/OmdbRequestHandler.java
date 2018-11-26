@@ -35,6 +35,6 @@ public class OmdbRequestHandler {
         if (movie == null) {
             throw new Exception("An error has occurred while serializing the quote response JSON");
         }
-        true
+        true;
     }
 }

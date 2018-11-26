@@ -3,6 +3,7 @@ package movie_saver.models;
 import java.util.List;
 
 public class Movie {
+    private String Id;
     public String  Title;
     public String  Year;
     public String  Rated;
@@ -15,4 +16,13 @@ public class Movie {
     public String  Plot;
     public List<MovieRating> Ratings;
     public String  Poster;
+
+    public void SetId(String id) {
+        Id = id;
+    }
+
+    public String GetId() {
+        return Id;
+    }
+
 }
